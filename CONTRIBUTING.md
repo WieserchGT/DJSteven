@@ -1,9 +1,9 @@
-# Contributing
+# Contribuir
 
-1. [Fork the repository](https://github.com/eritislami/evobot/fork)
-2. Clone your fork: `git clone https://github.com/your-username/evobot.git`
-3. Create your feature branch: `git checkout -b my-new-feature`
-4. Stage changes `git add .`
-5. Commit your changes: `cz` OR `npm run commit` do not use `git commit`
-6. Push to the branch: `git push origin my-new-feature`
-7. Submit a pull request
+1. [Haz un fork del repositorio](https://github.com/eritislami/evobot/fork)
+2. Clona tu fork: `git clone https://github.com/tu-usuario/evobot.git`
+3. Crea tu rama de características: `git checkout -b mi-nueva-característica`
+4. Prepara los cambios: `git add .`
+5. Realiza el commit de tus cambios: `cz` O `npm run commit` no uses `git commit`
+6. Empuja los cambios a la rama: `git push origin mi-nueva-característica`
+7. Envía un pull request
