@@ -1,7 +1,7 @@
 {
-  "name": "EvoBot",
-  "description": "🤖 Discord Music Bot built with discord.js",
-  "repository": "https://github.com/eritislami/evobot",
+  "name": "DJSteven",
+  "description": "🤖 DJSteven es un bot de música para Discord.",
+  "repository": "https://github.com/WieserchGT/DJSteven",
   "logo": "https://i.imgur.com/JFxgbWH.png",
   "keywords": ["discord", "discordjs", "typescript", "music", "bot"]
 }
