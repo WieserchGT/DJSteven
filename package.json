@@ -1,12 +1,12 @@
 {
-  "name": "evobot",
+  "name": "DJSteven",
   "version": "2.9.0",
-  "description": "Discord music bot built with discord.js",
+  "description": "DJSteven es un bot de música para Discord.",
   "main": "index.ts",
-  "author": "Erit Islami <eritislami@gmail.com>",
-  "private": true,
-  "homepage": "https://github.com/eritislami/evobot",
-  "repository": "github:eritislami/evobot",
+  "author": "WieserchGT <wiesercggmx@gmail.com>",
+  "private": false,
+  "homepage": "https://github.com/WieserchGT/DJSteven",
+  "repository": "github:WieserchGT/DjSteven",
   "bugs": "https://github.com/eritislami/evobot/issues",
   "engines": {
     "node": ">=16.11.0"
