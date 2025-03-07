@@ -4,17 +4,15 @@
 
 ![logo](https://repository-images.githubusercontent.com/186841818/8aa95700-7730-11e9-84be-e80f28520325)
 
-# 🤖 EvoBot (Discord Music Bot)
+# 🤖 DJSteven (Discord Music Bot)
 
-> EvoBot is a Discord Music Bot built with TypeScript, discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
+> DJ Steven es un Bot de Música para Discord creado con TypeScript, discord.js y usa el Manejador de Comandos de [discordjs.guide](https://discordjs.guide)
+## Requerimientos
 
-## Requirements
-
-1. Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**  
-   1.1. Enable 'Message Content Intent' in Discord Developer Portal
-2. Node.js 16.11.0 or newer
-
-## 🚀 Getting Started
+1. Bot Token **[Guia](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**  
+   1.1. Habilita "Message Content Intent" en el Portal de Desarrolladores de Discord.
+2. Node.js 16.11.0 o
+## 🚀 Comenzando
 
 ```sh
 git clone https://github.com/eritislami/evobot.git
@@ -22,13 +20,13 @@ cd evobot
 npm install
 ```
 
-After installation finishes follow configuration instructions then run `npm run start` to start the bot.
+Después de que finalice la instalación, sigue las instrucciones de configuración y luego ejecuta `npm run start` para iniciar el bot.
 
-## ⚙️ Configuration
+## ⚙️ Configuracion
 
-Copy or Rename `config.json.example` to `config.json` and fill out the values:
+Copia o Renombra `config.json.example` a `config.json` y completa los valores.:
 
-⚠️ **Note: Never commit or share your token or api keys publicly** ⚠️
+⚠️ **Nota: Nunca compartas ni publiques tu token o claves de API.**⚠️
 
 ```json
 {
@@ -41,34 +39,33 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 }
 ```
 
-## 🐬 Docker Configuration
+## 🐬 Configuración de Docker
 
-For those who would prefer to use our [Docker container](https://hub.docker.com/repository/docker/eritislami/evobot), you may provide values from `config.json` as environment variables.
+Para aquellos que prefieran usar nuestro [contenedor de Docker](https://hub.docker.com/repository/docker/eritislami/evobot), pueden proporcionar los valores de `config.json` como variables de entorno.
 
 ```shell
 docker run -e "TOKEN=<discord-token>" eritislami/evobot
 ```
 
-## 📝 Features & Commands
+## 📝 Características y Comandos
 
-- 🎶 Play music from YouTube via url
+- 🎶 Reproduce música de YouTube mediante una URL.
 
 `/play https://www.youtube.com/watch?v=GLvohMXgcBo`
 
-- 🔎 Play music from YouTube via search query
+- 🔎 Reproducir música de YouTube mediante una consulta de búsqueda.
 
 `/play under the bridge red hot chili peppers`
 
-- 🔎 Search and select music to play
+- 🔎 Buscar y seleccionar música para reproducir.
 
 `/search Pearl Jam`
 
-- 📃 Play youtube playlists via url
+- 📃 Reproducir listas de reproducción de YouTube mediante una URL.
 
 `/playlist https://www.youtube.com/watch?v=YlUKcNNmywk&list=PL5RNCwK3GIO13SR_o57bGJCEmqFAwq82c`
 
-- 🔎 Play youtube playlists via search query
-
+- 🔎 Reproducir listas de reproducción de YouTube mediante una consulta de búsqueda.
 `/playlist linkin park meteora`
 
 - Now Playing (/nowplaying)
@@ -87,14 +84,14 @@ docker run -e "TOKEN=<discord-token>" eritislami/evobot
 - Show bot uptime (/uptime)
 - Toggle pruning of bot messages (/pruning)
 - Help (/help)
-- Command Handler from [discordjs.guide](https://discordjs.guide/)
-- Media Controls via Buttons
+- Manejador de comandos de [discordjs.guide](https://discordjs.guide/)  
+- Controles de medios mediante botones
 
 ![buttons](https://i.imgur.com/67TGY0c.png)
 
-## 🌎 Locales
+## 🌎 Idiomas
 
-Currently available locales are:
+Los lenguajes disponibles actualmente son:
 
 - English (en)
 - Arabic (ar)
@@ -123,15 +120,15 @@ Currently available locales are:
 - Turkish (tr)
 - Ukrainian (uk)
 - Vietnamese (vi)
-- Check [Contributing](#-contributing) if you wish to help add more languages!
-- For languages please use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two letter format
+- Consulta [Contributing](#-contributing) si deseas ayudar a agregar más idiomas.  
+- Para los idiomas, por favor usa el formato de dos letras [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
 
-## 🤝 Contributing
+## 🤝 Contribuir
 
-1. [Fork the repository](https://github.com/eritislami/evobot/fork)
-2. Clone your fork: `git clone https://github.com/your-username/evobot.git`
-3. Create your feature branch: `git checkout -b my-new-feature`
-4. Stage changes `git add .`
-5. Commit your changes: `cz` OR `npm run commit` do not use `git commit`
-6. Push to the branch: `git push origin my-new-feature`
-7. Submit a pull request
+1. [Haz un fork del repositorio](https://github.com/eritislami/evobot/fork)  
+2. Clona tu fork: `git clone https://github.com/tu-usuario/evobot.git`  
+3. Crea tu rama de características: `git checkout -b mi-nueva-característica`  
+4. Prepara los cambios: `git add .`  
+5. Realiza el commit de tus cambios: `cz` O `npm run commit` no uses `git commit`  
+6. Empuja los cambios a la rama: `git push origin mi-nueva-característica`  
+7. Envía un pull request
